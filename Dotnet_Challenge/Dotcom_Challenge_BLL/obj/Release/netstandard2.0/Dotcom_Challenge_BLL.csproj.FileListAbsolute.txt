@@ -1,0 +1,9 @@
+C:\Users\Sumit Bajaj\source\repos\Dotnet_Challenge\Dotcom_Challenge_BLL\bin\Release\netstandard2.0\Dotcom_Challenge_BLL.deps.json
+C:\Users\Sumit Bajaj\source\repos\Dotnet_Challenge\Dotcom_Challenge_BLL\bin\Release\netstandard2.0\Dotcom_Challenge_BLL.dll
+C:\Users\Sumit Bajaj\source\repos\Dotnet_Challenge\Dotcom_Challenge_BLL\bin\Release\netstandard2.0\Dotcom_Challenge_BLL.pdb
+C:\Users\Sumit Bajaj\source\repos\Dotnet_Challenge\Dotcom_Challenge_BLL\obj\Release\netstandard2.0\Dotcom_Challenge_BLL.csprojResolveAssemblyReference.cache
+C:\Users\Sumit Bajaj\source\repos\Dotnet_Challenge\Dotcom_Challenge_BLL\obj\Release\netstandard2.0\Dotcom_Challenge_BLL.csproj.CoreCompileInputs.cache
+C:\Users\Sumit Bajaj\source\repos\Dotnet_Challenge\Dotcom_Challenge_BLL\obj\Release\netstandard2.0\Dotcom_Challenge_BLL.AssemblyInfoInputs.cache
+C:\Users\Sumit Bajaj\source\repos\Dotnet_Challenge\Dotcom_Challenge_BLL\obj\Release\netstandard2.0\Dotcom_Challenge_BLL.AssemblyInfo.cs
+C:\Users\Sumit Bajaj\source\repos\Dotnet_Challenge\Dotcom_Challenge_BLL\obj\Release\netstandard2.0\Dotcom_Challenge_BLL.dll
+C:\Users\Sumit Bajaj\source\repos\Dotnet_Challenge\Dotcom_Challenge_BLL\obj\Release\netstandard2.0\Dotcom_Challenge_BLL.pdb
