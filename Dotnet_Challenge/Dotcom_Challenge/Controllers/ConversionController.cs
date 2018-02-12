@@ -12,7 +12,7 @@ namespace Dotcom_Challenge.Controllers
     public class ConversionController : ApiController
     {
         IConversion _conversion = new Conversion();
-        
+        ConversionModel cModel = new ConversionModel();
         public IHttpActionResult GetConvertedWords(int id)
         {           
             return Ok(_conversion.ConversionToWords(id.ToString()));

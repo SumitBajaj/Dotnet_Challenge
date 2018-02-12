@@ -9,45 +9,45 @@ namespace Dotcom_Challenge_BLL
             string word = "";
             try
             {
-                bool beginsZero = false;//tests for 0XX  
+                bool beginsZero = false;
                 bool isDone = false;//test if already translated  
                 double dblAmt = (Convert.ToDouble(Number));
-                //if ((dblAmt > 0) && number.StartsWith("0"))  
+                
                 if (dblAmt > 0)
                 {//test for zero or digit zero in a nuemric  
                     beginsZero = Number.StartsWith("0");
 
                     int numDigits = Number.Length;
                     int pos = 0;//store digit grouping  
-                    String place = "";//digit grouping name:hundres,thousand,etc...  
+                    String place = "";
                     switch (numDigits)
                     {
-                        case 1://ones' range  
+                        case 1://ones
 
                             word = ones(Number);
                             isDone = true;
                             break;
-                        case 2://tens' range  
+                        case 2://tens
                             word = tens(Number);
                             isDone = true;
                             break;
-                        case 3://hundreds' range  
+                        case 3://hundreds
                             pos = (numDigits % 3) + 1;
                             place = " Hundred ";
                             break;
-                        case 4://thousands' range  
+                        case 4://thousands
                         case 5:
                         case 6:
                             pos = (numDigits % 4) + 1;
                             place = " Thousand ";
                             break;
-                        case 7://millions' range  
+                        case 7://millions
                         case 8:
                         case 9:
                             pos = (numDigits % 7) + 1;
                             place = " Million ";
                             break;
-                        case 10://Billions's range  
+                        case 10://Billions
                         case 11:
                         case 12:
 

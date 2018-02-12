@@ -9,9 +9,10 @@
 
         function ConvertToWords() {
             var id = $('#input_number').val();
+            var name = $('#name').val();
             $.getJSON(uri + '/' + id)
                 .done(function (data) {
-                    $('#result').text(data);
+                    $('#result').text(name + " you have entered '" + data + "'");
                 })
                 .fail(function (jqXHR, textStatus, err) {
                     $('#result').text('Error: ' + err);
@@ -22,7 +23,8 @@
 <body>
     <div>
         <h1>Conversion of number into words</h1>
-        <input type="text" id="input_number" />
+        Enter your name: <input type="text" id="name" maxlength="100"/><br/><br/>
+        Enter number: <input type="text" id="input_number" />
         <input type="submit" id="submit" value="Convert to Words" onclick="ConvertToWords();" />
         <h3 id="result">result will appear here...</h3>
     </div> 
